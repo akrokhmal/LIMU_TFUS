@@ -10,6 +10,11 @@ function vHolo = bowl_source_hologram_calculation(c0, rho0, a, r, f, dx, v0, sou
 % moved further to adjust the size of the simulation volume. The ASA 
 % propagation technique is adapted from the k-Wave toolbox. 
 %
+% USAGE:
+%
+% vHolo = bowl_source_hologram_calculation(c0, rho0, a, r, f, dx, v0, source_pos)
+% vHolo = bowl_source_hologram_calculation(c0, rho0, a, r, f, dx, v0, source_pos, 'Padding', 50)
+%
 % INPUTS:
 % 
 % c0: Sound speed in the medium [m/s]

@@ -1,6 +1,7 @@
 function [] = run_gpu(~)
 
     % % just to initialize GPU for elder versions of matlab
+%     parallel.gpu.enableCUDAForwardCompatibility(true);
     a = [1,2];
     a = gpuArray(a);
     clear a;
